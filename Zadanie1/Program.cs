@@ -18,7 +18,7 @@
                 // Walidacja operatora
                 if(op=="+" || op=="-" || op=="*" || op == "/")
                 {
-                    int wynik = 020;
+                    int wynik = 0;
                     if (op == "+")
                     {
                         wynik=a+b;
