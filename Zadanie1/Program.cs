@@ -7,7 +7,7 @@
         {
             try
             {
-            // zastosowanie int nie trzeba zmienoprzecinkowych (prosty kalkulator)
+            // zastosowanie int nie trzeba fzmienoprzecinkowych (prosty kalkulator)
             // ewentualnie long ale int powinien w zupełności wystarczyć
                 Console.Write("Podaj liczbę nr.1: ");           
                 int a = int.Parse(Console.ReadLine());
