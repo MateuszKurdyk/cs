@@ -20,9 +20,25 @@
                     string input = Console.ReadLine();
                     input = input.Replace(",",".");
                     double ocena = double.Parse(input);
-                    suma += ocena;
+                    if (ocena>=1 && ocena<=6){
+                        suma += ocena;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Wprowadzono złą liczbe, skala to (od 1 do 6)");
+                        return;
+                    }
                 }
-                Console.WriteLine(suma);            
+                suma /= licznik;
+                if(suma >= 3)
+                {
+                    Console.WriteLine("Brawo zdałeś twoja średnia to: "+suma);
+                }
+                else
+                {
+                    Console.WriteLine("Niestety nie zdałeś twoja średnia to: "+suma);
+                    Console.WriteLine($"Brakło ci {3-suma} do zdania");                    
+                }
             }
             catch
             {
