@@ -18,7 +18,32 @@
                 // Walidacja operatora
                 if(op=="+" || op=="-" || op=="*" || op == "/")
                 {
-                    Console.WriteLine(op);
+                    int wynik = 020;
+                    if (op == "+")
+                    {
+                        wynik=a+b;
+                    }
+                    else if (op == "-")
+                    {
+                        wynik=a-b;
+                    }
+                    else if (op == "*")
+                    {
+                        wynik=a*b;
+                    }
+                    else if (op == "/")
+                    {
+                        // walidacja dzielenia przez 0
+                        if(b!=0)
+                        {
+                            wynik=a/b;
+                        }
+                        else
+                        {
+                            throw new DivideByZeroException("dzielenie przez zero");
+                        }
+                    }
+                    Console.WriteLine($"Wynik działania: {a} {op} {b} = {wynik}");
                 }
                 else
                 {
@@ -35,9 +60,13 @@
             {
                 Console.WriteLine("błąd: "+ex.Message);
             }
+            catch(DivideByZeroException ex)
+            {
+                Console.WriteLine("błąd: "+ex.Message);
+            }
             catch
             {
-                Console.WriteLine("błąd");
+                Console.WriteLine("Niespodziewany błąd");            
             }
             // rozpoznawanie ifem
         }
