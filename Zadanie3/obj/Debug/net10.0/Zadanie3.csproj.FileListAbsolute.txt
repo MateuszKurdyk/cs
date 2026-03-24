@@ -1,0 +1,14 @@
+/Users/matic/Developer/Studia/cs/Zadanie3/bin/Debug/net10.0/Zadanie3
+/Users/matic/Developer/Studia/cs/Zadanie3/bin/Debug/net10.0/Zadanie3.deps.json
+/Users/matic/Developer/Studia/cs/Zadanie3/bin/Debug/net10.0/Zadanie3.runtimeconfig.json
+/Users/matic/Developer/Studia/cs/Zadanie3/bin/Debug/net10.0/Zadanie3.dll
+/Users/matic/Developer/Studia/cs/Zadanie3/bin/Debug/net10.0/Zadanie3.pdb
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/Zadanie3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/Zadanie3.AssemblyInfoInputs.cache
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/Zadanie3.AssemblyInfo.cs
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/Zadanie3.csproj.CoreCompileInputs.cache
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/Zadanie3.dll
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/refint/Zadanie3.dll
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/Zadanie3.pdb
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/Zadanie3.genruntimeconfig.cache
+/Users/matic/Developer/Studia/cs/Zadanie3/obj/Debug/net10.0/ref/Zadanie3.dll
